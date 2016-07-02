@@ -1,0 +1,74 @@
+body{
+  font-family: 'Exo:400', sans-serif;
+font-weight: 400;
+}
+
+#playerMove, #computerMove{
+text-align: center;
+font-size: 20px;
+}
+#winner{
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(84,138,156)
+}
+.images{
+padding: 25px;
+display: inline-block;
+border: solid rgba(72,61,139,0.4);
+border-radius: 10px;
+border-width:2px;
+align-content: center;
+margin: 10px;
+}
+
+#content{
+  margin: auto 0;
+text-align: center;
+
+
+}
+img{
+  height: 200px;
+  border-radius: 3px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: rgb(60, 97, 110);
+}
+div{
+font-size: 13px;
+color: rgb(60, 97, 110);
+}
+
+#games, #score{
+  text-align: center;
+  font-size:20px;
+}
+
+footer,p {
+position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+footer{
+  background-color: rgba(72,61,139,0.2);
+  height: 35px;
+    color: rgb(60, 97, 110);
+}
+a{
+  text-decoration: none;
+}
+#resetButton{
+  border-radius: 3px;
+  border: solid rgba(35,150,143,0.4);
+  text-align: center;
+  font-size: 20px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}

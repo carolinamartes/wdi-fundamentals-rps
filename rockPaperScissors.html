@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" type="text/css" href="rockPaperScissors.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Exo:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"> </script>
+    <script type="text/javascript" src="rockPaperScissors.js"></script>
+</head>
+<body>
+  <h1>Let's play Rock Paper Scissors!</h1>
+  <div id="playerMove">
+    </div>
+  <div id="computerMove">
+    </div>
+    <div id="winner">
+      </div>
+      <div id="content">
+	<div class="images" id="rock" onclick="rockClicked();return false">
+		<a href> <img src="http://photoshop-free.ru/_ph/3/481293737.png"></a>
+<h2>ROCK</h2>
+  </div>
+<div class="images" id="paper" onclick="paperClicked();return false">
+		<a href> <img src="https://c2.staticflickr.com/8/7013/6813297315_b9677b8bcc_b.jpg"></a>
+<h2>PAPER</h2>
+</div>
+<div class="images" id= "scissors" onclick="scissorsClicked();return false">
+		<a href><img src="http://www.top-stitch.net/images/scissors.png"></a>
+<h2>SCISSORS</h2>
+</div>
+</div>
+  <div id="games">
+    </div>
+    <div id="score">
+      </div>
+    <a href=""><div id="resetButton" onclick="resetScore();">
+        Reset
+      </div></a>
+      <footer>
+        <h5>
+        <p> Handcrafted by Carolina Martes </p>
+        <h5>
+      </footer>
+<script>
+      $(document).ready(function(){
+     $(".images").hover(function(){
+         $(this).css("background-color", "rgb(212,242,253)")}, function(){
+         $(this).css("background-color", "rgba(212,242,253,0.4)");
+});
+
+      $("#resetButton").hover(function(){
+   $(this).css("background-color", "rgba(60, 97, 110,0.4)")}, function(){
+   $(this).css("background-color", "rgba(35,150,143,0.4)");
+});
+});
+</script>
+</body>
+</html>
